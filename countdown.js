@@ -1,4 +1,4 @@
-const birthday = new Date("April 8, 2025 19:17:00").getTime();
+const birthday = new Date("May 6, 2025 00:00:00").getTime();
 const audio = document.getElementById("birthday-sound");
 const playButton = document.getElementById("play-button");
 const pauseButton = document.getElementById("pause-button");
