@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+     background-color: #ffe6f2;
+     text-align: center;
+     font-family: Arial, sans-serif;
+     color: black;
+     height: 100vh;
+     margin: 0;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   /* Main Container */
+   .container {
+     text-align: center;
+     z-index: 1;
+   }
+   
+   /* Header and Message */
+   h1 {
+     font-size: 40px;
+     color: #d63384;
+   }
+   
+   .message {
+     font-size: 20px;
+     margin-top: 20px;
+     color: black;
+   }
+   
+   /* Button Style */
+   .button {
+     display: inline-block;
+     margin-top: 30px;
+     padding: 15px 30px;
+     font-size: 18px;
+     color: white;
+     background-color: #ff3366;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+     text-decoration: none;
+   }
+   
+   .button:hover {
+     background-color: #cc0052;
+   }
+   
+   /* Confetti Canvas */
+   canvas#confetti {
+     position: fixed;
+     top: 0;
+     left: 0;
+     pointer-events: none;
+     z-index: 0;
+   }
+
+   .library-button {
+    margin-top: 30px;
+    padding: 14px 28px;
+    font-size: 18px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .library-button:hover {
+    background-color: #ff80ab;
+  }
+  
